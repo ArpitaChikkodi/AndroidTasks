@@ -2,11 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/parentlayout"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/firstlayout"
@@ -22,6 +21,7 @@
 
     <TextView
         android:layout_width="match_parent"
+        android:id="@+id/textview1"
         android:layout_height="29dp"
         android:gravity="center"
         android:text="Click on below button to choose image from your phone" />
@@ -36,5 +36,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"></LinearLayout>
+
 
 </LinearLayout>

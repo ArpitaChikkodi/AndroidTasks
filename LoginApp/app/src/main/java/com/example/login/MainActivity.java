@@ -11,6 +11,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/*
+username : abc@gmail.com
+password : abc@123
+
+these above given credentials are to be entered to login successfully!
+After 3 wrong attempts the login button is disabled for 10 seconds and invalid message will be displayed for wrong credentials
+
+*/
 public class MainActivity extends AppCompatActivity {
 
     Button signin,cancel,clear;

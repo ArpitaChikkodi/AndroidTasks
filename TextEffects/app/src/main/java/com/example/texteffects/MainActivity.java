@@ -18,6 +18,14 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+/*
+    This application demonstrates how to dynamically change text effects
+    It has a seekbar which helps to increase size of user input text
+    3 buttons itaic,bold and normal
+    normal button clears all the formatting of text
+    Spinner helps to change the color of text
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     EditText editInput;
@@ -92,9 +100,12 @@ public class MainActivity extends AppCompatActivity {
         normal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                seekValue = 18;
                 editInput.setTypeface(null, Typeface.NORMAL);
-                editInput.setTextSize(18);
+                editInput.setTextSize(seekValue);
                 editInput.setTextColor(Color.BLACK);
+                //To set seekbar progress to normal
+                seekBar.setProgress(seekValue);
             }
         });
 
