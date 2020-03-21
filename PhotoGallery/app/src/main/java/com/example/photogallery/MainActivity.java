@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /*
     This is a photo gallery application which fetches 5 images from drawable by adding it to Arraylist,
-    ViewPager is used to display image, FragmentImageView helps to adjust the image size.
+    ViewPager is used to display image, FragmentImageView which extends fragment helps to adjust the image size.
     Two buttons previous and next are used to move images back and forth.
  */
 public class MainActivity extends FragmentActivity implements View.OnClickListener, ViewPager.OnPageChangeListener {
