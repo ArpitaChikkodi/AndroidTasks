@@ -17,8 +17,8 @@ import java.util.TreeSet;
 
 /*
     The contacts here are sorted in ascending order and the repetitions are avoided
-    by adding it to Treeset with the required validations, since this is not working for email,dob and fax fields so
-    another app with its own database is created!
+    by adding it to Treeset with the required validations,this is not working for email,dob and fax fields
+    which I have tried and that code is commented!
  */
 public class MainActivity extends AppCompatActivity {
 

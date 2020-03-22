@@ -24,6 +24,9 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/*
+        The Google API key has been fetched from NewsAPI website!
+ */
 public class FragmentEnglish extends Fragment {
     View view;
     TextView newstext;
@@ -33,6 +36,7 @@ public class FragmentEnglish extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState) {
         view =  inflater.inflate(R.layout.activity_english,container,false);
         newstext = (TextView)view.findViewById(R.id.newstext);
+
 
         String news_url;
         news_url = "http://newsapi.org/v2/top-headlines?sources=google-news&apiKey=e57f7439aa3243a0800c9d0fb8f9cb5f";
