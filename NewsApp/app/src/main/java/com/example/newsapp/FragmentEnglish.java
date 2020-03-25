@@ -39,7 +39,7 @@ public class FragmentEnglish extends Fragment {
 
 
         String news_url;
-        news_url = "http://newsapi.org/v2/top-headlines?sources=google-news&apiKey=e57f7439aa3243a0800c9d0fb8f9cb5f";
+        news_url = "http://newsapi.org/v2/top-headlines?sources=google-news&apiKey=YOUR-API-KEY";
 
 
         new FragmentEnglish.AsyncHttpTask().execute(news_url);
