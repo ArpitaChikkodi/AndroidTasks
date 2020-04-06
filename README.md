@@ -16,4 +16,4 @@ The API key for Google Maps-based APIs is defined as a string resource in the pr
              (See the file "res/values/google_maps_api.xml")
 Get the API-key from above webpage and paste it in the place of YOUR_API_KEY.
   
-For the better experience in understanding how each app loooks and works, the apk files are also uploaded which can be installed on android phone.
+For the better experience in understanding how each app looks and works, the apk files are also uploaded which can be installed on android phone.
